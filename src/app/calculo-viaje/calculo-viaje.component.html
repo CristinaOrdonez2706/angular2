@@ -1,0 +1,10 @@
+<div >
+    <h2>Resultado del viaje:</h2>
+    <p>Costo total: {{ resultado.costoTotal }}</p>
+    <p>Duración: {{ resultado.duracion }} horas</p>
+    @if (resultado.advertenciaDescanso) {
+      <p> Advertencia: ¡Advertencia! El viaje dura más de 12 horas. Se recomienda descansar</p>
+    }
+    
+  </div>
+
